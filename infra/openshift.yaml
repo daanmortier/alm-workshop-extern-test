@@ -24,7 +24,7 @@ spec:
       containers:
         - name: workshop
           # TODO: Update image to your image
-          image: <<TODO>>
+          image: quay.io/mortierdaan/alm-workshop:1.0.0
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
